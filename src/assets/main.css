@@ -1,0 +1,35 @@
+ 	.outer {
+  		text-align:center;
+  		margin:5% 30%;
+  	}
+  	.circle {
+  		width:300px;
+  		height:300px;
+  		border-radius:50%;
+  		display:inline-block;
+  		background-color:#686868;
+  		transition:2s;
+  		cursor:pointer;
+  		border:5px solid #585858;
+  		box-shadow:1px 5px 100px black;
+  		position:relative;
+  		animation-name:myanimation;
+  		animation-duration:1s;
+  	}
+  	@keyframes myanimation {
+  		0% {transform:translateY(0px) rotateX(0deg);}
+  		50% {transform:translateY(-200px) rotateX(720deg);}
+  		0% {transform:translateY(0px) rotateX(0deg);}
+  	}
+  	.circle h1 {
+  		margin-top:40%;
+  		color:white;
+  	}
+  	.btn {
+  		margin:3% auto;
+  		display:block !important;
+  		border-radius:0;
+  		border:none;
+  		opacity:0;
+  		transition:3s;
+		}
