@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Toss a Coin</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="assets/main.js"></script>
+</head>
+<body onload="toss()">
+	<div class="container text-center">
+		<h1>Click on the coin to toss!</h1>
+	</div>
+	<div class="outer">
+		<div class="circle" onclick="reload()"><h1 id="demo">Heads</h1></div>
+	</div>
+	<div>
+		<button class="btn btn-primary btn-lg" onclick="reload()" id="show">Flip it again</button>
+	</div>
+</body>
+</html>
