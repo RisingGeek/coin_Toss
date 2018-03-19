@@ -28,8 +28,18 @@
   	.btn {
   		margin:3% auto;
   		display:block !important;
-  		border-radius:0;
-  		border:none;
   		opacity:0;
   		transition:3s;
 		}
+	@media(max-width:768px) {
+		.outer {
+			margin:5% 0;
+		}
+		.circle {
+			width:200px;
+			height:200px;
+		}
+		.btn {
+			width:60%;
+		}
+	}
